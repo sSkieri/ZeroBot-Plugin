@@ -97,19 +97,20 @@ import (
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/moyu"          // 摸鱼
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/moyu_calendar" // 摸鱼人日历
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/music"         // 点歌
+
 	// _ "github.com/FloatTech/ZeroBot-Plugin/plugin/nativesetu"    // 本地涩图
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/nativewife"    // 本地老婆
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/nbnhhsh"       // 拼音首字母缩写释义工具
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/nihongo"       // 日语语法学习
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/novel"         // 铅笔小说网搜索
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/nsfw"          // nsfw图片识别
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/omikuji"       // 浅草寺求签
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/qqwife"        // 一群一天一夫一妻制群老婆
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/reborn"        // 投胎
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/runcode"       // 在线运行代码
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/saucenao"      // 以图搜图
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/scale"         // 叔叔的AI二次元图片放大
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/score"         // 分数
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/nativewife" // 本地老婆
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/nbnhhsh"    // 拼音首字母缩写释义工具
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/nihongo"    // 日语语法学习
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/novel"      // 铅笔小说网搜索
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/nsfw"       // nsfw图片识别
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/omikuji"    // 浅草寺求签
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/qqwife"     // 一群一天一夫一妻制群老婆
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/reborn"     // 投胎
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/runcode"    // 在线运行代码
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/saucenao"   // 以图搜图
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/scale"      // 叔叔的AI二次元图片放大
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/score"      // 分数
 	// _ "github.com/FloatTech/ZeroBot-Plugin/plugin/setutime"      // 来份涩图
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/shadiao"       // 沙雕app
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/shindan"       // 测定
@@ -214,7 +215,7 @@ func init() {
 	}
 
 	// 通过代码写死的方式添加主人账号
-	 sus = append(sus, 2846881721)
+	sus = append(sus, 2846881721)
 	// sus = append(sus, 87654321)
 
 	if *runcfg != "" {
